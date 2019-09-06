@@ -21,3 +21,15 @@ Constructing machine learning models requries domain knowledge, mathematical exp
 8. Analyze model outcomes / model selection
 9. Deploy model
 
+### :boom: Big Data
+Big data refers to volume, velocity, and varity of data that is available.
+* Volume: the amount of data immense.
+* Velocity: the speed of data
+* Variety: the different types of data, strucutre, as well as, unstructured
+
+### Classification
+Classification is a technique by which you determine to what group a certain observation belongs.
+
+### Confusion Matrix
+After training each classification model, the resulting confusion matrix shows how accurately the model categroized each record and where it might be making errors.
+<img src = 'https://miro.medium.com/max/356/1*Z54JgbS4DUwWSknhDCvNTQ.png'>
