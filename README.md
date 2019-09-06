@@ -32,4 +32,5 @@ Classification is a technique by which you determine to what group a certain obs
 
 ### Confusion Matrix
 After training each classification model, the resulting confusion matrix shows how accurately the model categroized each record and where it might be making errors.
+
 <img src = 'https://miro.medium.com/max/356/1*Z54JgbS4DUwWSknhDCvNTQ.png'>
