@@ -38,7 +38,7 @@ After training each classification model, the resulting confusion matrix shows h
 ### Cross-Validation
 Cross-validation is an extension of the training, validation, and holdout (test sets) process that minimise the sampling bias of machine learning models. <br>
 <img src='https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-22-at-1.22.04-PM.png'>
-With corss validation, the non-holdout data was split into five buckets, it is called '5-fold cross validation'. We then use one protion of the data for validation, and the remainder as training dataset.
-After that, five iterations of a model is built based on the training data set and is tested with the validation dataset. Then compute the average performance of the model on each of the validation partitions.<br>
-<img scr='https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-21-at-4.26.53-PM.png'>
-
+With corss validation, the non-holdout data was split into five buckets, it is called '5-fold cross validation'. We then use one protion of the data for validation, and the remainder as training dataset. <br>
+After that, five iterations of a model is built based on the training data set and is tested with the validation dataset. Then compute the average performance of the model on each of the validation partitions. <br>
+<img src='https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-21-at-4.26.53-PM.png'>
+If the original validation partition is not representative of the overall population, then the resulting model may appear to have a high accuracy when in reality it just happens to fit the unusual validation set, causing you to implement a model that actually has poor accuracy when applied to future data. With cross-validation, you double-check how accurate your model is on multiple difference validation set, making sure it will generalize well to data you collect in the future. <br>
