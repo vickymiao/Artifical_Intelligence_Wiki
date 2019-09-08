@@ -42,3 +42,21 @@ After training each classification model, the resulting confusion matrix shows h
 <p> After that, five iterations of a model is built based on the training data set and is tested with the validation dataset. Then compute the average performance of the model on each of the validation partitions. </p>
 <img src='https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-21-at-4.26.53-PM.png'>
 <p> If the original validation partition is not representative of the overall population, then the resulting model may appear to have a high accuracy when in reality it just happens to fit the unusual validation set, causing you to implement a model that actually has poor accuracy when applied to future data. With cross-validation, you double-check how accurate your model is on multiple difference validation set, making sure it will generalize well to data you collect in the future. </p>
+
+### Feature Engineering
+<p> Feature engineering is the addtion and construction of additonal variables, or features, to imporve machine learning model peformance and accuracy. The most effective feature engineering is based on sound knowledge of the business problem.</P>
+<p> <em> Coming up with features is difficult, time-consuming, [and] requires expert knowledge. - Andrew Ng, chief scientis of Baidu, co-chairman and co-founder of Coursera, and adjunct professor at Stanford Univrsity </em> </P>
+<p><em>Example</em> <br>
+  To most machine learning algorithms, dates are a string of unrelated numbers with no particular signifance. But with feature engineering, we can ientify which dates are Wednesday, and which days occurs immediately before or after public holidy. Feature engineering exposes this kind of 'common knowlege' and expands the number of pratical insights and business values a dataset can yield.</P>
+  
+ ### Feature
+ Features is the measurable property of the object you're trying to analyze, which are the building blocks of the dataset. The quality of the features in your dataset has a major impact on the quality of the insights you will be able to obtain through machine learning.
+ 
+
+ ### Feature Impact
+ <p> Identify which features in a dataset have the greatest effect on the outcome of a machine learning model. </p>
+ <p> In the age of big data, the size and dimension of dataset is astronomical. Assessing which pieces of information are most crucial allows analysts and business professionals to focus on the factors that matter the most, saving time and resources.
+<p> Feature impact is used in both feature selection and target leakage</p>
+  
+ ### Feature Selection
+ Getting rid of the features that don't add values to the analysis, reducing the chance of overfitting, reducing the CPU, I/O, and RAM load, and increasing the models'interpretablity.
