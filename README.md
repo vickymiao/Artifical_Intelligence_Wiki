@@ -27,6 +27,37 @@ Big data refers to volume, velocity, and varity of data that is available.
 * Velocity: the speed of data
 * Variety: the different types of data, strucutre, as well as, unstructured
 
+### Key Terminology
+- Labels: things (y) we predict.
+- Features: input variable (x)
+- Models: define the relationship between labels and freateures.
+  - Training: create the model
+  - Inference: apply the trained model to unlabeld examples
+- Regressin: predict continuous values
+- Classification: predict discrete values
+
+### Linear Regression
+<p> y' = b + w1x1 (y': predicted label, b: bias, w1: weight, x1: feature) </p>
+<p> In supervised learning, a ML algorithm builds a model by examining historical records and attempting to find a model that minimizes loss. --- empirical risk minimization. </p>
+<p> Loss is the penalty for a bad prediction, which is a number indicating how bad the model is in terms of the prediction.</p>
+<p> The square loss = the square of the difference between the label and the predcition </p>
+<p> Mean square error = average square loss per record over the whole dataset </p>
+
+## An iterative approach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Classification
 Classification is a technique by which you determine to what group a certain observation belongs.
 
@@ -42,9 +73,6 @@ After training each classification model, the resulting confusion matrix shows h
 <p> After that, five iterations of a model is built based on the training data set and is tested with the validation dataset. Then compute the average performance of the model on each of the validation partitions. </p>
 <img src='https://3gp10c1vpy442j63me73gy3s-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Screen-Shot-2018-03-21-at-4.26.53-PM.png'>
 <p> If the original validation partition is not representative of the overall population, then the resulting model may appear to have a high accuracy when in reality it just happens to fit the unusual validation set, causing you to implement a model that actually has poor accuracy when applied to future data. With cross-validation, you double-check how accurate your model is on multiple difference validation set, making sure it will generalize well to data you collect in the future. </p>
-
-### Feature
-Features is the measurable property of the object you're trying to analyze, which are the building blocks of the dataset. The quality of the features in your dataset has a major impact on the quality of the insights you will be able to obtain through machine learning.
 
 ### Feature Engineering
 <p> Feature engineering is the addtion and construction of additonal variables, or features, to imporve machine learning model peformance and accuracy. The most effective feature engineering is based on sound knowledge of the business problem.</P>
